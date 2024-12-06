@@ -1,0 +1,53 @@
+    
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ejemplo HTML</title>
+    <link rel="stylesheet" href="clase.css">
+</head>
+
+<body>
+    <div>
+        <p>Gato</p>
+    </div>
+    
+    <br />
+    <div>
+        <img onclick="alerta()" src="gatito.jpg" width="50%" height="auto">
+    </div>
+    <br />
+
+    <h1>Registra a tu gato</h1>
+
+    <form onsubmit="enviarFormulario(event)">
+        <div>
+            <label id="nombre">Nombre:</label>
+            <input id="inputNombre" label="nombre" placeholder="aquí pon el nombre" type="text" minlength="3" maxlength="5" required />
+        </div>
+        <br />
+        <div>
+            <label>Peso (kg)</label>
+            <input id="inputPeso" type="number" min="3" max="5" required />
+        </div>
+        <br />
+        <div>
+            <label>Descripción de tu mascota:</label>
+            <textarea></textarea>
+        </div>
+        <br />
+        <button type="submit">Enviar</button>
+    </form>
+
+    <br />
+
+  
+<script src="clase.js"></script>
+</body>
+
+</html>
+
+
+
+
