@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de Ayuda</title>
+    <link rel="stylesheet" href="inicio.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .hero {
+            background-image: url('');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #333;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo img {
+            height: 50px;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar ul li {
+            margin: 0 15px;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .navbar ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .cta {
+            background-color:rgb(144, 223, 237);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+        .cta:hover {
+            background-color:rgb(143, 221, 238);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Buscar</a></li>
+                    <li><a href="#">Donar</a></li>
+                    <li><a href="#">Recaudar fondos</a></li>
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="#">Iniciar sesión</a></li>
+                </ul>
+            </nav>
+            <button class="cta">Iniciar una recaudación</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Tu lugar para ayudar</h1>
+            <p>Plataforma líder en crowdfunding</p>
+            <button class="cta">Iniciar una recaudación</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Madeleine Jimenez, Franco Quesada y Jhonder Triana. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="inicio.js"></script>
+</body>
+</html>
+
+
