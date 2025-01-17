@@ -1,6 +1,7 @@
 const { DataTypes } = require("sequelize");
-const sequelize = require("../models/connect");
-const autoController = require('../controllers/auto.controller');
+const sequelize = require("../database/connect");
+
+
 const Auto = sequelize.define("Auto", {
     brand: {
         type: DataTypes.STRING,
