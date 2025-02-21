@@ -1,0 +1,64 @@
+.list-post-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.post-card {
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.post-card:hover {
+  transform: scale(1.05);
+}
+
+.post-image {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.post-content {
+  padding: 10px;
+}
+
+.post-content h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #ffcc00;
+}
+
+.post-content p {
+  font-size: 1rem;
+  color: #cccccc;
+}
+
+.likes {
+  color: #ff4d4d;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
